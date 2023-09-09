@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Poppins:ital,wght@0,100;0,300;0,400;1,100;1,200&display=swap');
+
+* {
+    /* font-family: 'Cabin', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: 1.5fr 2fr;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+#image {
+    width: 100%;
+    margin: 3rem;
+}
+
+.bio {
+    color: #fff;
+    padding: 2rem;
+    max-width: 80%;
+    line-height: 2rem;
+}
+
+.name {
+    font-size: 5rem;
+}
+
+.underline {
+    margin-left: 0%;
+    width: 60%;
+    opacity: 70%;
+}
+
+.bioText {
+    padding-left: 10%;
+}
+
+hr {
+    width: 70%;
+    opacity: 30%;
+}
+
+h2 {
+    text-align: left;
+}
+
+.info_sections {
+    margin: 2rem 0;
+}
+
+.info {
+    font-size: 1.1rem;
+    padding: 5% 15%;
+}
+
+li {
+    padding: 0.5rem 0;
+}
+
+footer {
+    text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        font-size: small;
+    }
+
+    .hero {
+        grid-template-columns: 1fr;
+        padding: 1rem;
+    }
+
+    .name {
+        font-size: 2rem;
+    }
+
+    .bioText {
+        padding-left: 3%;
+    }
+
+    .info {
+        font-size: 1rem;
+        padding: 2% 5%;
+    }
+}
